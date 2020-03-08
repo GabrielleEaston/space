@@ -1,11 +1,15 @@
 Title: A working title for the app. ======Space========
-Description: Educational Interactive Web App that introduce Astronomy. Showing the Astronomy Picture of the day from Nasa. List the asteroids near Earth. Showing the weather and the season on Mars. The goal of the app is to bring an interest in learning more about different planets. 
+Description: Educational Interactive Web App that introduce Astronomy. Showing the Astronomy Picture of the day from Nasa. Search the images from NASA. Showing the weather and the season on Mars(Post MVP). The goal of the app is to bring an interest in learning more about different planets. 
 Wireframes: Mockups of your app on desktop, tablet, and mobile.
 included in files: mobile.png tablet.png web.png
 API used for the app: Nasa Api
-MVP: Write out what your goals are for MVP, including the minimum, need-to-have features of your app.
+First Api - is for picture of the day
+https://api.nasa.gov/planetary/apod?api_key=0oFslsB2k74JzxNJf3hsTVVXyYvvcHtBuvjF1c2B'
+Second one is for search
+https://images-api.nasa.gov/search?q=${input}&media_type=image
+MVP: Goals for MVP, including the minimum, need-to-have features of Space app.
 Showing the photo of the day from NASA website and giving a description.
-Getting random photos of Mars from different cameras
+Search option to look up the images and short descriptions of the planets
 Make the web app responsive
-Post-MVP: Write out what your goals are for post-MVP, including nice-to-have features that you would like to implement once your MVP is complete.
-Making it more interactive: like a story-telling. Introducing a character who lives in Space. He is super interested in learning about life on Earth. But first he is showing the places he grew up.
+Post-MVP Goals:
+Making it more interactive: like a story-telling. Introducing a character who lives in Space. He is super interested in learning about life on Earth. But first he is showing the places he grew up. Adding information about Asteroids near Earth and Life on Mars(weather and images);
