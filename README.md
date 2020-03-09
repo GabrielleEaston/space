@@ -13,3 +13,4 @@ Search option to look up the images and short descriptions of the planets
 Make the web app responsive
 Post-MVP Goals:
 Making it more interactive: like a story-telling. Introducing a character who lives in Space. He is super interested in learning about life on Earth. But first he is showing the places he grew up. Adding information about Asteroids near Earth and Life on Mars(weather and images);
+Adding smooth transitions between sections. Creating an illusion of moving stars
