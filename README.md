@@ -1,9 +1,10 @@
 #Title: A working title for the app. ======Space========
 Description: Educational Interactive Web App that introduces Astronomy. Showing the Astronomy Picture of the day from Nasa. Search the images from NASA. Showing the weather and the season on Mars(Post MVP). The goal of the app is to bring an interest in learning more about different planets. 
 #Wireframes: Mockups of your app on desktop, tablet, and mobile.
-!(imageAlt)[https://imgur.com/53zBSR2]
-!(imageAlt)[https://imgur.com/BrHZOf3]
-!(imageAlt)[https://imgur.com/28AEzPw]
+![imageAlt](https://imgur.com/53zBSR2.png)
+![imageAlt](https://imgur.com/BrHZOf3.png)
+![imageAlt](https://imgur.com/28AEzPw.png)
+<!-- ![imageAlt](imageURL.png) -->
 Also included in files: mobile.png tablet.png web.png
 #API used for the app: Nasa Api
 First API - is for picture of the day
