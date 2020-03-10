@@ -9,7 +9,7 @@ Description: Educational Interactive Web App that introduces Astronomy. Showing 
 ![imageAlt](https://imgur.com/53zBSR2.png)
 
 
-<!-- ![imageAlt](imageURL.png) -->
+
 Also included in files: mobile.png tablet.png web.png
 #API used for the app: Nasa Api
 First API - is for picture of the day
