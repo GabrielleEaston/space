@@ -4,6 +4,7 @@ const pod = document.querySelector('.hero');
 const button = document.querySelector('#btn');
 const userInput = document.querySelector('#search');
 const planetContainer = document.querySelector('.planet-container');
+
 // https://images-api.nasa.gov
 
 const getPhotoOfTheDay = async () => {
@@ -15,14 +16,20 @@ const getPhotoOfTheDay = async () => {
   pod.innerHTML =
     `<div class="text">
     <h1>${response.data.title}</h1>
-    <div class="hide">
+    <button id="btn-read-more">Read more</button>
+    <div id="hide">
     <p>${response.data.explanation}</p></div>
     </div>
     `
 }
 getPhotoOfTheDay();
 
-
+const readMore = document.querySelector('#btn-read-more');
+const hide = document.querySelector('#hide');
+//console.log(hide);
+readMore.addEventListener('click', () => {
+  hide.style.display = "block";
+})
 
 
 
@@ -30,6 +37,7 @@ getPhotoOfTheDay();
 
 button.addEventListener('click', async () => {
   const input = userInput.value;
+
   //   const response = await axios.get('https://api.nasa.gov/planetary/apod?api_key=0oFslsB2k74JzxNJf3hsTVVXyYvvcHtBuvjF1c2B');
   const response = await axios.get(`https://images-api.nasa.gov/search?q=${input}&media_type=image`);
 
@@ -39,6 +47,7 @@ button.addEventListener('click', async () => {
 
 
   //debugger;
+
   for (let i = 0; i < 6; i += 1) {
     planetContainer.innerHTML += `
     <div class="column">
@@ -46,7 +55,6 @@ button.addEventListener('click', async () => {
       <h4>${response.data.collection.items[i].data[0].title}</h4></div>
      `
   }
-
 })
 
 

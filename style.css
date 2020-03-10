@@ -68,7 +68,7 @@ a:hover {
 }
 
 .text {
-  background: #252a1f;
+  background: #252a1f4b;
   padding: 20px;
   width: 75%;
 }
@@ -113,7 +113,7 @@ input {
   border: 4px solid #179b8f78;
 }
 
-button {
+#btn {
   color: white;
   background-color: #323d30;
   padding: 15px 30px;
@@ -123,6 +123,16 @@ button {
   border: 2px solid white;
   margin: 20px;
   cursor: pointer;
+}
+
+#btn-read-more {
+  color: #020202;
+  background-color: #8f7687;
+  padding: 7px 10px;
+  font-weight: bold;
+  border: 2px solid #020202;
+  cursor: pointer;
+  font-size: 1em;
 }
 
 .planet-container {
@@ -163,6 +173,6 @@ footer {
   bottom: 0;
 }
 
-.hide {
+#hide {
   display: none;
 }
