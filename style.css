@@ -146,13 +146,26 @@ input {
   overflow: scroll;
 }
 
+
 .planet-container img {
+  opacity: 0.9;
+  transition: transform .5s,
+    opacity .5s;
+  transition: transform .5s,
+    opacity .5s;
   display: block;
   width: 500px;
   height: 500px;
   margin-top: 2%;
   padding: 40px;
   border-radius: 2%;
+}
+
+.planet-container img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .column {
@@ -163,7 +176,10 @@ input {
   color: white;
 }
 
-
+.column h4 {
+  margin-top: -10px;
+  padding-top: -10px;
+}
 
 footer {
   width: 100%;
@@ -173,6 +189,7 @@ footer {
   bottom: 0;
 }
 
-#hide {
+
+#toggle {
   display: none;
 }
