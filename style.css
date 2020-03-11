@@ -68,6 +68,7 @@ a:hover {
   width: 100%;
   height: 100%;
   padding-top: 3%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -118,8 +119,8 @@ a:hover {
 
 .text {
   background: #000000e0;
-  padding: 2%;
-  width: 35%;
+  padding: 4%;
+  width: 32%;
   align-self: flex-end;
   margin-bottom: 10px;
 }
@@ -143,7 +144,6 @@ a:hover {
   height: 100%;
   min-height: 550px;
   text-align: center;
-
 }
 
 label {
@@ -185,9 +185,6 @@ input {
   min-height: 550px;
   max-height: 100%;
   margin-bottom: 10px;
-
-  /* overflow: auto; */
-
 }
 
 
@@ -250,6 +247,39 @@ footer {
   height: 70vh;
 }
 
+/* contact page */
+.title {
+  text-align: center;
+  font-size: 2em;
+  padding: 5%;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form {
+  display: block;
+}
+
+textarea {
+  width: 100%;
+  height: 40%;
+  border: 4px solid #179b8f78;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#submit {
+  border: 4px solid #179b8f78;
+  padding: 4% 20%;
+  font-size: 2em;
+  font-weight: bold;
+}
 
 
 /* Media queries */
@@ -307,8 +337,47 @@ footer {
 }
 
 @media only screen and (max-width:650px) {
+  header {
+    flex-direction: column;
+  }
+
   .text {
     width: 100%;
+  }
+}
 
+@media only screen and (max-width:431px) {
+  header {
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo img {
+    width: 140px;
+
+  }
+
+  ul li {
+    display: block;
+    padding: 5px;
+
+  }
+
+  a {
+    padding: 4px;
+  }
+
+  .banner {
+    text-align: center;
+  }
+
+  .wrapper h2 {
+    font-size: 2em;
+  }
+
+  .planet-container img {
+    width: 100%;
+    height: 100%;
   }
 }
