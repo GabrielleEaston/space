@@ -36,7 +36,7 @@ getPhotoOfTheDay();
 button.addEventListener('click', async () => {
   const userInput = document.querySelector('#search');
   const input = userInput.value;
-  console.log(input);
+  // console.log(input)
   const response = await axios.get(`https://images-api.nasa.gov/search?q=${input}&media_type=image`);
   // debugger;
   console.log(input)
