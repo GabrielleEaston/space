@@ -10,7 +10,6 @@ Description: Educational Interactive Web App that introduces Astronomy. Showing 
 
 
 
-Also included in files: mobile.png tablet.png web.png
 #API used for the app: Nasa Api
 First API - is for picture of the day
 https://api.nasa.gov/planetary/apod?api_key=0oFslsB2k74JzxNJf3hsTVVXyYvvcHtBuvjF1c2B'
@@ -21,6 +20,6 @@ Showing the photo of the day from NASA website and giving a description.
 Search option to look up the images and short descriptions of the planets
 Make the web app responsive and fancy looking.
 #Post-MVP Goals:
-Making it more interactive: like a story-telling. Introducing a character who lives in Space. He is super interested in learning about life on Earth. But first he is showing the places he grew up. Adding information about Asteroids near Earth and Life on Mars(weather and images);
-Adding smooth transitions between sections. Creating an illusion of moving stars;
-possibly using robohash images for logo https://robohash.org/
+Making it more interactive: adding toggle navbar menu.  Adding information about Asteroids near Earth and Life on Mars(weather and images);
+Clicking on images opens it in a new window or modal
+

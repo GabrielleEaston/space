@@ -192,7 +192,7 @@ input {
   transition: transform .5s,
     opacity .5s;
   display: block;
-  width: 450px;
+  width: 400px;
   height: 500px;
   margin-top: 2%;
   padding: 40px;
