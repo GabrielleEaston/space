@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script defer src="script.js"></script>
-</head>
-
-<body>
-  <header>
-    <div class="logo">
-      <img src="https://robohash.org/ plkjj" alt="robohash">
+  <body>
+    <header>
+      <div class="logo">
+        <img src="https://robohash.org/ plkjj" alt="robohash" />
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planets.html">Planets</a></li>
+        <li><a href="working.html">Asteroids</a></li>
+        <li><a href="working.html">Mars</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+    <div class="title">
+      <h2>Let's get in touch!</h2>
     </div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="planets.html">Planets</a></li>
-      <li><a href="working.html">Asteroids</a></li>
-      <li><a href="working.html">Mars</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </header>
-  <div class="title">
-    <h2>Let's get in touch!</h2>
-  </div>
-  <section class="contact-form" id="contact">
-    <form>
-
-      <label for="name">Name<br></label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-      <label for="email">Email<br></label>
-      <input type="email" id="email" name="email" placeholder="Your email"><br>
-      <label for="message">Message<br></label>
-      <textarea id="subject" name="subject" placeholder="Write something.."></textarea><br>
-      <input id="submit" type="submit" value="Send">
-
-    </form>
-  </section>
-</body>
-
+    <section class="contact-form" id="contact">
+      <form>
+        <label className="label-form" for="name">Name<br /></label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        /><br />
+        <label className="label-form" for="email">Email<br /></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+        /><br />
+        <label className="label-form" for="message">Message<br /></label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+        ></textarea
+        ><br />
+        <input id="submit" type="submit" value="Send" />
+      </form>
+    </section>
+  </body>
 </html>
