@@ -1,5 +1,5 @@
 #Title: A working title for the app. ======Space========
-Description: Educational Interactive Web App that introduces Astronomy. Showing the Astronomy Picture of the day from Nasa. Search the images from NASA. Showing the weather and the season on Mars(Post MVP). The goal of the app is to bring an interest in learning more about different planets. 
+Description: Shows real time inforamtion from Nasa. Landing page shows the Astronomy Picture of the day from Nasa. Second page let you Search the images from NASA. The goal of the app is to bring an interest in learning more about different planets. 
 #Wireframes: Mockups of your app on desktop, tablet, and mobile.
 
 ![imageAlt](https://imgur.com/28AEzPw.png)

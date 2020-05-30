@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,600|Roboto:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,500,600|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap");
 
 * {
   margin: 0;
@@ -24,11 +24,11 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 #btn-planets {
-  padding: .7em 1.5em;
+  padding: 0.7em 1.5em;
 }
 
 .banner h1 {
@@ -79,10 +79,9 @@ a:hover {
 }
 
 .wrapper h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-bottom: 5%;
 }
-
 
 .hero {
   width: 100%;
@@ -104,8 +103,7 @@ a:hover {
   height: 80%;
   padding-right: 10%;
   opacity: 0.9;
-  transition: transform .5s,
-    opacity .5s;
+  transition: transform 0.5s, opacity 0.5s;
   border-radius: 1%;
 }
 
@@ -139,7 +137,7 @@ a:hover {
 }
 
 .searchSpace {
-  padding: 10%;
+  padding: 10% 2%;
   height: 100%;
   min-height: 550px;
   text-align: center;
@@ -173,10 +171,9 @@ input {
   cursor: pointer;
 }
 
-
-
 .planet-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -186,18 +183,17 @@ input {
   margin-bottom: 10px;
 }
 
-
 .planet-container img {
   opacity: 0.9;
-  transition: transform .5s,
-    opacity .5s;
+  transition: transform 0.5s, opacity 0.5s;
   display: block;
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 400px;
   margin-top: 2%;
   padding: 40px;
   border-radius: 5%;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .planet-container img:hover {
@@ -230,15 +226,13 @@ footer {
   padding-bottom: 20px;
 }
 
-
-
 /* Working Page */
 .working-page {
   text-align: center;
 }
 
 .working-page h2 {
-  font-family: 'Ruslan Display', sans-serif;
+  font-family: "Ruslan Display", sans-serif;
   font-size: 2em;
   display: flex;
   justify-content: center;
@@ -280,9 +274,8 @@ textarea {
   font-weight: bold;
 }
 
-
 /* Media queries */
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width: 1100px) {
   .hero {
     flex-direction: column;
   }
@@ -300,7 +293,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width:850px) {
+@media only screen and (max-width: 850px) {
   html {
     font-size: 14px;
   }
@@ -335,7 +328,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width: 650px) {
   header {
     flex-direction: column;
   }
@@ -345,7 +338,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width:431px) {
+@media only screen and (max-width: 431px) {
   header {
     justify-content: flex-start;
     align-items: center;
@@ -354,13 +347,11 @@ textarea {
 
   .logo img {
     width: 140px;
-
   }
 
   ul li {
     display: block;
     padding: 5px;
-
   }
 
   a {
