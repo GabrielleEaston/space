@@ -1,6 +1,6 @@
 
 
-![gif](https://i.imgur.com/RLdGTet.gif
+![gif](https://i.imgur.com/RLdGTet.gif)
 
 
 #Title: A working title for the app. 
