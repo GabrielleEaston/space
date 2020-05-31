@@ -12,10 +12,10 @@
 
 <br>
 
-#API used for the app: Nasa Api #\_First API - is for picture of the day
-
+#API used for the app: Nasa Api #
+>_First API - is for picture of the day
 > -https://api.nasa.gov/planetary/apod?api_key=0oFslsB2k74JzxNJf3hsTVVXyYvvcHtBuvjF1c2B
-> #Second API is for search planet images -https://images-api.nasa.gov/search?q=${input}&media_type=image
+>-Second API is for search planet images -https://images-api.nasa.gov/search?q=${input}&media_type=image
 
 <br>
 
