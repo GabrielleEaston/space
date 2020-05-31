@@ -1,8 +1,16 @@
+
+
+![gif](https://media.giphy.com/media/SK4EWuN6eLRCg/giphy.gif)
+
+
+
 #Title: A working title for the app. 
 ####======Space========
 #Description: -_Shows real time information from Nasa._ -_Landing page shows the Astronomy Picture of the day from Nasa._ -_Second page let you Search the images from NASA._ -_The goal of the app is to bring an interest in learning more about different planets._
 
-![](https://i.imgur.com/RLdGTet.gifv)
+
+![gif](https://i.imgur.com/RLdGTet.gif)
+
 
 #API used for the app: Nasa Api #_First API - is for picture of the day
 -\_https://api.nasa.gov/planetary/apod?api_key=0oFslsB2k74JzxNJf3hsTVVXyYvvcHtBuvjF1c2B_
