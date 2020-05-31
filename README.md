@@ -9,7 +9,7 @@
 #Description: -_Shows real time information from Nasa._ -_Landing page shows the Astronomy Picture of the day from Nasa._ -_Second page let you Search the images from NASA._ -_The goal of the app is to bring an interest in learning more about different planets._
 
 
-![gif](https://i.imgur.com/RLdGTet.gif)
+![gif](https://i.imgur.com/RLdGTet.png)
 
 
 #API used for the app: Nasa Api #_First API - is for picture of the day
